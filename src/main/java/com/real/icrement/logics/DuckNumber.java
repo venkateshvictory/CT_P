@@ -13,9 +13,9 @@ public class DuckNumber {
 			int d = n % 10;
 			if (d == 0) {
 				count++;
-				n = n / 10;
+				
 			}
-
+			n = n / 10;
 		}
 		if (count > 0) {
 			System.out.println("yes");

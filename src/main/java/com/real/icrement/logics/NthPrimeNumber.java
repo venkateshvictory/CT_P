@@ -18,16 +18,22 @@ public class NthPrimeNumber {
 				}
 				
 			}
-			primeNumber=i;
+			//primeNumber=i;
 			if(count==2 ) {
 				
 				System.out.println("the nth prime number is "+ i);
-				add=i;
+				add=add+1;
+//				if()
+			}
+			
+			if(add==n) {
+				System.out.println("the nth prime number is " + i);
 			}
 			
 			
 		}
-		System.out.println(primeNumber);
+		
+		//System.out.println(primeNumber);
 		System.out.println(add);
 		
 	

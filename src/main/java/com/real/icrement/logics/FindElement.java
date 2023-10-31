@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class FindElement {
 
 	public static void main(String[] args) {
-		System.out.println();
+		System.out.println("enter 10 numbers");
 		int count=0;
 		Scanner sc = new Scanner(System.in);
 		int x=33;

@@ -42,8 +42,9 @@ public class BooleanExample {
 	       System.out.println("at 5th index"+ a.charAt(5));
 	       System.out.println("at 6th index"+a.charAt(6));
 	       System.out.println("at 7th index"+a.charAt(7));
-	       System.out.println(a.charAt(8));
-	       a=a.substring(3);
+	       System.out.println("at 8th index"+ a.charAt(8));
+	      // a=a.substring(3);
+	       System.out.println("the subString is " + a.substring(3));
 	       System.out.println("the index char is " +a);
 	       
 	}
