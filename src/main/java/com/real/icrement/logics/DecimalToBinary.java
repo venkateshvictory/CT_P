@@ -16,7 +16,7 @@ public class DecimalToBinary {
 		}
 		System.out.println("\n binary representation is : ");
 		while(!(stack.isEmpty())) {
-			System.out.println(stack.pop());
+			System.out.print(stack.pop());
 		}
 		System.out.println();
 	}

@@ -14,20 +14,20 @@ public class SecondHighestElementInArray {
 			int temp;
 			if (array[i] > array[j]) {
 				temp = array[i];
-				array[i] = array[j ];
-				array[j] = temp;
+				array[i] = array[j];
+         		array[j] = temp;
 
 			}
 
-		}
+           }
 		
 	}
 		for (int arr : array) {
 			
 			System.out.println(arr);
 		}
-	System.out.println(array[10-2]);
-	System.out.println(array[9]);
+	System.out.println("the second highest element is " +array[10-2]);
+	//System.out.println(array[9]);
 	     
 		
 }}
